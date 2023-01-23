@@ -84,3 +84,13 @@ fn is_jetbrains_jediterm() -> bool {
         Err(_error) => false,
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use crate::is_unicode_supported;
+
+    #[test]
+    fn should_work_on_ci() {
+        assert_eq!(is_unicode_supported(), true);
+    }
+}
