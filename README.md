@@ -1,7 +1,5 @@
 # is-unicode-supported
-Detect whether the terminal supports unicode or not. Inspiration comes from [sindresorhus/is-unicode-supported](https://github.com/sindresorhus/is-unicode-supported)
-
-Useful for deciding whether to use Unicode or ASCII characters in command-line output.
+Detect whether the terminal supports unicode or not. Inspiration comes from [sindresorhus/is-unicode-supported](https://github.com/sindresorhus/is-unicode-supported). Useful for deciding whether to use Unicode or ASCII characters in command-line output.
 
 Words from [Sindre](https://github.com/sindresorhus):
 
